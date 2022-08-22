@@ -66,10 +66,10 @@ button {
  #div-fields {
     display: flex;
     justify-content: space-evenly;
+    height: 40px;
 }
 
 .password-field {
-    
     color: #10B981;
     margin: 0;
     border-radius: 5px;
@@ -77,7 +77,6 @@ button {
     font-size: 16px;
     text-align: center;
     line-height: 40px;
-    height: 40px;
     width: 175px;
     background-color: #2F3E53;
 }
