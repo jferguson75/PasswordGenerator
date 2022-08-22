@@ -1,0 +1,24 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <link rel="icon" type='image/x-icon' href=“/assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div id="div-header">
+            <h1>Generate a</h1>
+            <h2>random password</h2>
+            <p>Never use an insecure password again</p>
+            <button id="generatePasswords=el" onclick="generate()">Generate passwords</button>
+        </div>
+        <div class="line"></div>
+        <div id="div-fields">
+            <p class="password-field" id="passwordOne-el" onclick="copy()"></p> 
+            <p class="password-field" id="passwordTwo-el" onclick="copy()"></p> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
